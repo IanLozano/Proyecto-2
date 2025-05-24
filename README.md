@@ -62,7 +62,7 @@ API expuesta para recibir texto y devolver géneros predichos.
 
 ```json
 {
-  "input_text": "The Matrix (1999): A hacker discovers reality is a simulation controlled by machines."
+  "input_text": "The Exorcist III (1990): lt . kinderman and father dyer cheer each other up on the anniversary of the death of their mutual friend , father damien karras , by going to see \" it 's a wonderful life \" at the local theater in georgetown , near washington d . c . but there 's no cheering kinderman while a particularly cruel and gruesome serial killer is at large . his murders , which involve torture , decapitation and the desecration of religious icons , is bad enough ; but they also resemble those of the gemini killer , who has been dead for fifteen years ."
 }
 ```
 
@@ -70,7 +70,10 @@ Respuesta:
 
 ```json
 {
-  "predicted_genres": ["Action", "Sci-Fi"]
+  "predicted_genres": [
+    "Horror",
+    "Thriller"
+  ]
 }
 ```
 
@@ -79,7 +82,7 @@ Respuesta:
 Disponible en:
 
 ```
-http://<IP_PUBLICA>:5000/docs
+http://3.144.210.123:5000/docs
 ```
 
 ---
